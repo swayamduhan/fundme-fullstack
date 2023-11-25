@@ -1,0 +1,79 @@
+.btn {
+    padding : 5px;
+    background-color: #f8ad9d;
+    border-radius: 15px;
+    border : 1px groove #f08080;
+    color : white;
+    height : 50px;
+    width : 160px;
+    margin : 20px;
+    font-size: 1rem;
+    cursor :pointer;
+    color : #FFEFE1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.txt-area {
+    border : 2px solid black;
+    height : 50px;
+    width : 350px;
+    margin: 3.5rem 0;
+    text-align: center;
+    border-radius: 15px;
+    border : 2px solid #f4978e;
+    background : #fbc4ab;
+    color : #D87474;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.para {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color : #f08080;
+    text-shadow: 3px 3px 1px rgba(248, 173, 157);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 3rem;
+}
+
+* {
+    background-color: #ffdab9;
+    margin : 0;
+    padding : 0;
+}
+
+.btn:hover {
+    background-color: #f4978e;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn, .txt-area {
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.smol {
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #00000050;
+    margin-top : 1rem
+}
+
+.margin {
+    margin-bottom : 3rem
+}
